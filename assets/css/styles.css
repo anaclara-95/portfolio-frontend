@@ -1,0 +1,305 @@
+/*-------------------------------GOOGLE FONTS--------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*-------------------------------------CSS VARIABLES---------------------------------*/
+:root {
+
+/*-----------------------------------COLORS---------------------------------------------*/
+
+/*color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color: 
+    
+    Default (purple): hsl()
+
+
+
+
+
+*/
+
+--hue: 358;
+--first-color: hsl(var(--hue), 80%, 49%);
+--first-color-alt: hsl(var(--hue), 76%, 45%);
+--white-color: hsl(0, 0% ,98%);
+--black-color: hsla(0,0%, 1%);
+--text-color: hsl(var(--hue), 2%, 66%);
+--body-color: hsl(var(--hue), 100%, 1%);
+--container-color: hsl(var(--hue), 2%, 10%);
+--conic-gradient: --conic-gradient(from 150deg at 50% 45%,
+hsl(var(--hue), 80%, 20%) 0deg,
+hsl(var(--hue), 80%, 48%) 140deg,
+hsl(var(--hue), 80%, 20%) 360deg);
+
+
+
+/*--------------------------------FONTS AND TYPOGRAPHY-------------------------------------*/
+
+--body-font: "Atkinson Hyperlegible Mono", sans-serif;
+--second-font:  "Open Sans", sans-serif;
+--biggest-font-size: 2.5rem;
+--h1-font-size: 1.5rem;
+--h2-font-size: 1.25rem;
+--h3-font-size: 1rem;
+--normal-font-size: .938rem;
+--small-font-size: .813rem;
+--smaller-font-size: .75rem;
+
+/*-------------------------------FONT WEIGHT------------------------------------*/
+--font-regular: 400;
+--font-medium: 500;
+--font-semi-bold: 600;
+
+/*-------- z indez ---------------*/
+
+--z-tooltip: 10;
+--z-fixed: 100;
+
+
+}
+
+
+/*---------------------------RESPONSIVE TYPOGRAPHY--------------------------------------*/
+
+@media  screen and (min-width: 1168px) {
+    :root {
+        --biggest-font-size: 3.5rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+    
+}
+
+/*-----------------------------BASE------------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--white-color);
+}
+
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+
+h1, h2, h3, h4 {
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*--------------------------------------------REUSABLE CSS CLASSES----------------------------------*/
+.container {
+    max-width: 1168px;
+    margin-inline: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section {
+    padding-block: 2rem 3rem;
+}
+
+.section__title{
+    font-size: var(--h2-font-size);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main {
+    overflow: hidden;
+}
+
+
+
+/*---------------------------------------------NAV----------------------------------------------*/
+.nav{
+    position:fixed;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    background-color: hsla(142, 53%, 79%, 0.5);
+    width: 88%;
+    margin-inline: auto;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    z-index: var(--z-fixed);
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__link{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+    color:var(--white-color);
+    font-size:1.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: background-color .6s;
+}
+
+
+/*------------------------------------------------HOME------------------------------*/
+
+/*--------PROFILE----*/
+
+.profile {
+    position: relative;
+    background: var(--conic-gradient);
+    height: 415px;
+    border-radius: 2rem;
+    padding: 1rem;
+    display: grid;
+    overflow: hidden;
+
+}
+
+.profile__img {
+    width: 250px;
+    position: absolute;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.profile__data {
+    align-self: flex-end;
+    background-color: hsla(24, 10%, 90%, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 1.5rem 1rem;
+    border-radius: 1.5em;
+    
+}
+
+.profile__name {
+    font: var(--font-regular) var(--biggest-font-size) var(--second-font);
+    margin-bottom: 1rem;
+}
+
+.profile__buttons {
+    display: grid;
+    column-gap: .5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile__buttons .button {
+    padding: .75rem 0;
+}
+
+
+/*--------INFO-------*/
+
+.info {
+    background-color: var(--container-color);
+    padding: 2rem 1.5rem;
+    border-radius: 2rem;
+}
+
+
+.info__name {
+    font: var(--font-regular) var(--h1-font-size) var(--second-font);
+
+}
+
+.info__data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.info__image {
+    background: var(--conic-gradient);
+    height: 180px;
+    border-radius: 2rem;
+    display: grid;
+    margin-block: 1.5rem;
+    overflow: hidden;
+}
+
+.info__img {
+    width: 140px;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.info__description {
+    font-size: var(--small-font-size);
+    margin-bottom: 2rem;
+}
+
+.info .button {
+    width: 100%;
+}
+/*--------ABOUT------*/
+
+/*--------SKILLS-----*/
+
+/*-------------------------BUTTON----------------------------------------*/
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+    padding: 1.25rem 2.5rem;
+    border-radius: 4rem;
+    transition: background-color .4s;
+}
+
+.button__black {
+    background-color: var(--black-color);
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}

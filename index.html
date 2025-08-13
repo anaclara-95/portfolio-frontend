@@ -3,10 +3,47 @@
 
 <head>
     <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITLE -->
+    <title>Portfolio Web Developer | Anaclara Ferrando</title>
+
+    <!-- META DESCRIPTION -->
+    <meta name="description"
+        content="Portfolio de Anaclara Ferrando, desarrolladora web especializada en HTML, CSS, JavaScript, Java y MySQL. Creación de landing pages, desarrollo front-end y back-end.">
+
+    <!-- META KEYWORDS -->
+    <meta name="keywords"
+        content="Anaclara Ferrando, desarrolladora web, web developer, HTML, CSS, JavaScript, Java, MySQL, landing pages, portfolio, front-end, back-end, Argentina">
+
+    <!-- AUTHOR -->
+    <meta name="author" content="Anaclara Ferrando">
+
+    <!-- ROBOTS -->
+    <meta name="robots" content="index, follow">
+
+    <!-- CANONICAL URL -->
+    <link rel="canonical" href="https://.com/">
 
     <!--------------------------------------------------FAVICON------------------------------------->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href="assets/img/logo-02.jpeg">
+
+    <!-- OPEN GRAPH (Facebook, LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portfolio Web Developer | Anaclara Ferrando">
+    <meta property="og:description"
+        content="Conoce mis proyectos web, servicios y experiencia en desarrollo front-end y back-end.">
+    <meta property="og:image" content="https://tusitio.com/assets/img/profileimage.jpeg">
+    <meta property="og:url" content="https://tusitio.com/">
+    <meta property="og:site_name" content="Portfolio Anaclara Ferrando">
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfolio Web Developer | Anaclara Ferrando">
+    <meta name="twitter:description"
+        content="Desarrolladora web especializada en front-end y back-end. Ver proyectos y servicios.">
+    <meta name="twitter:image" content="https://tusitio.com/assets/img/profileimage.jpeg">
+
 
     <!------------------------------------------------REMIXICONS------------------------------------------->
 
@@ -16,7 +53,29 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>Portfolio Anaclara Ferrando</title>
+    <!-- SCHEMA.ORG: PERSON -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Anaclara Ferrando",
+      "jobTitle": "Web Developer",
+      "url": "https://tusitio.com/",
+      "image": "https://tusitio.com/assets/img/profileimage.jpeg",
+      "sameAs": [
+        "https://www.linkedin.com/",
+        "https://github.com/",
+        "https://www.fiverr.com/"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "FstailSolutions"
+      },
+      "knowsAbout": ["HTML", "CSS", "JavaScript", "Java", "MySQL", "Web Development"]
+    }
+    </script>
+
+
 </head>
 
 <body>
@@ -73,8 +132,8 @@
                         <h1 class="profile__name"> Anaclara <br> Ferrando</h1>
 
                         <div class="profile__buttons">
-                            <a href="#projects" class="button">Projects</a>
-                            <a href="#services" class="button button__black">Services</a>
+                            <a href="#projects" class="button">Proyectos</a>
+                            <a href="#services" class="button button__black">Servicios</a>
 
                         </div>
                     </div>
@@ -87,25 +146,32 @@
                         <h1 class="info__name">Anaclara Ferrando</h1>
                     </div>
                     <div class="info__image">
-                        <img src="" alt="img" class="info__img">
+                        <img src="" alt="Anaclara Ferrando - Desarrolladora Web" class="info__img">
                     </div>
 
                     <p class="info__description">
-                        Aquí va la descripción guau
+                        Desarrolladora web con conocimientos en <strong>HTML, CSS, JavaScript, Java y MySQL</strong>.
+                        Creo <b>landing pages</b> y sitios web responsive para emprendedores, optimizados para velocidad
+                        y posicionamiento SEO.
                     </p>
 
                     <a href="assets/pdf/cv-anaclara-ferrando.pdf" download target="_blank"
-                        class="button button__black">Download CV</a>
+                        class="button button__black">Descargar CV</a>
                 </div>
                 <!------ABOUT----->
 
-                <div class="about">
-                    <h3 class="about__name">
-                        Anaclara Ferrando - <b>Web Developer</b>
-                    </h3>
+                <section class="about" id="about">
+                    <h1 class="about__name">
+                        Anaclara Ferrando - <b>Desarrolladora Web Full Stack</b>
+                    </h1>
 
                     <p class="about__description">
-                        Acá va algo que v a escribir chatgpt sobre mí
+                        Soy <strong>Anaclara Ferrando</strong>, desarrolladora web especializada en <b>HTML, CSS,
+                            JavaScript, Java y MySQL</b>.
+                        Creo <strong>landing pages optimizadas</strong>, sitios web corporativos y soluciones a medida
+                        para emprendedores y negocios.
+                        Mi enfoque combina <b>diseño atractivo</b> y <b>rendimiento</b>, garantizando que cada página
+                        cargue rápido, sea segura y esté lista para posicionar en buscadores.
                     </p>
 
                     <div class="about__social">
@@ -127,11 +193,13 @@
                     </div>
 
                     <p class="about__note">
-                        You can contact me via email, linkedin private message or Fiverr.
+                        Trabajo con clientes en Argentina y en todo el mundo a través de plataformas freelance como
+                        Fiverr.
+                        Podés contactarme por email, LinkedIn o Fiverr para proyectos de <b>desarrollo web</b>.
                     </p>
 
-                    <a href="#contact" class="button">Contact me</a>
-                </div>
+                    <a href="#contact" class="button">Contactarme</a>
+                </section>
 
                 <!------SKILLS---->
 
@@ -147,7 +215,7 @@
                     </div>
 
                     <p class="skills__discription">
-                        Visist the projects sections to see the work done with thesee technologies.
+                        Visite la sección de proyectos para ver el trabajo realizado con estas tecnologías.
                     </p>
                 </div>
             </div>
@@ -155,18 +223,22 @@
 
         <!-------------------------------------PROJECTS------------------------------>
         <section class="projects-section" id="projects">
-            <h2 class="section__title">Recent projects</h2>
+            <h2 class="section__title">Proyectos Recientes de Desarrollo Web</h2>
 
             <div class="projects__container container grid">
+
                 <article class="projects__card">
                     <a href="#" target="_blank" class="projects__image">
-                        <img src="" alt="imgprojects" class="projects__img">
+                        <img src="assets/img/bakery-website.png"
+                            alt="Sitio web de panadería desarrollado en HTML, CSS y JavaScript" class="projects__img">
                     </a>
 
                     <div class="projects__data">
                         <h3 class="projects__name">Bakery Website</h3>
                         <p class="projects__description">
-                            Short dscription of the project
+                            Sitio web moderno y responsive para una panadería, desarrollado con <b>HTML, CSS y
+                                JavaScript</b>.
+                            Incluye galería de productos, sección de contacto y optimización SEO on-page.
                         </p>
 
                         <div class="projects__skills">
@@ -177,20 +249,21 @@
 
                         <a href="#" target="_blank" class="projects__button">
                             <i class="ri-links-fill"></i>
-                            <span>Visit project</span>
+                            <span>Visitar proyecto</span>
                         </a>
                     </div>
                 </article>
 
                 <article class="projects__card">
                     <a href="#" target="_blank" class="projects__image">
-                        <img src="" alt="imgprojects" class="projects__img">
+                        <img src="assets/img/cake-website.png" alt="imgprojects" class="projects__img">
                     </a>
 
                     <div class="projects__data">
                         <h3 class="projects__name">Cake Website</h3>
                         <p class="projects__description">
-                            Short dscription of the project
+                            Landing page profesional para pastelería con <b>HTML, CSS y JavaScript</b>.
+                            Optimizada para conversión con llamadas a la acción y diseño responsive.
                         </p>
 
                         <div class="projects__skills">
@@ -201,7 +274,7 @@
 
                         <a href="#" target="_blank" class="projects__button">
                             <i class="ri-links-fill"></i>
-                            <span>Visit project</span>
+                            <span>Visitar proyecto</span>
                         </a>
                     </div>
                 </article>
@@ -211,33 +284,44 @@
         <!---------------------------SERVICES------------------------------>
 
         <section class="services-section" id="services">
-            <h2 class="section__title">Services I offer</h2>
+            <h2 class="section__title">Servicios de Desarrollo Web y Programación</h2>
             <div class="services__containter container container grid">
 
-
+                <!-- Servicio 1 -->
                 <article class="services__card">
                     <div class="services__icon">
                         <i class="ri-code-s-slash-line"></i>
                     </div>
-                    <h3 class="services__name">Web Design</h3>
+                    <h3 class="services__name">Diseño y Desarrollo de Landing Pages</h3>
                     <p class="services__description">
-                        Short description of the service
+                        Creación de <strong>landing pages profesionales</strong> enfocadas en conversión, con
+                        <b>HTML, CSS y JavaScript</b>. <br> Diseño responsive, rápido y optimizado para SEO, ideal para
+                        emprendedores y negocios que buscan <br> presencia en línea efectiva.
                     </p>
                 </article>
 
+
+                <!-- Servicio 2 -->
                 <article class="services__card">
-                    <div class="services__icon"></div>
-                    <h3 class="services__name"></h3>
+                    <div class="services__icon">
+                        <i class="ri-database-2-line"></i>
+                    </div>
+                    <h3 class="services__name">Desarrollo Backend con Java y MySQL</h3>
                     <p class="services__description">
-                        Short description of the service
+                        Programación de <strong>aplicaciones backend</strong> y <b>gestión de bases de datos MySQL</b>.
+                        <br>
+                        Desarrollo seguro y escalable, integración con APIs y paneles de administración.
                     </p>
                 </article>
 
+                <!-- Servicio 3 -->
                 <article class="services__card">
-                    <div class="services__icon"></div>
-                    <h3 class="services__name"></h3>
-                    <p class="services__description">
-                        Short description of the service
+                    <div class="services__icon">
+                        <i class="ri-community-fill"></i>
+                    </div>
+                    <h3 class="services__name">Páginas Web Institucionales</h3>
+                        Creación de <strong>sitios web completos</strong> con varias secciones: inicio, servicios,
+                        galería, contacto y más. <br> Diseño adaptable, carga rápida y optimizado para buscadores.
                     </p>
                 </article>
 
@@ -246,41 +330,32 @@
 
         <!-----------------------------------EXPERIENCE------------------------------->
         <section class="experience-section" id="experience">
-            <h2 class="section__title">Experience</h2>
+            <h2 class="section__title">Experiencia</h2>
             <div class="experience__container container grid">
 
                 <article class="experience__card">
                     <h2 class="experience__company">Freelance</h2>
 
                     <div class="experience__data">
-                        <h3 class="experience__profession">Website Development</h3>
-                        <span class="experience__date">2025-28-02</span>
+                        <h3 class="experience__profession">Desarrollo de Sitios Web</h3>
+                        <span class="experience__date">2024 - Actualidad</span>
                         <p class="experience__description">
-                            Short description of the work the dog did for the company.
+                            Creación de <strong>landing pages</strong> y sitios web personalizados para
+                            emprendedores locales. Diseño responsive y optimización para buscadores.
                         </p>
                     </div>
                 </article>
 
                 <article class="experience__card">
-                    <h2 class="experience__company">Other</h2>
+                    <h2 class="experience__company">Proyecto Personal</h2>
 
                     <div class="experience__data">
-                        <h3 class="experience__profession"></h3>
-                        <span class="experience__date"></span>
+                        <h3 class="experience__profession">Bakery Website</h3>
+                        <span class="experience__date">2024</span>
                         <p class="experience__description">
-                            Short description of the work the dog did for the company.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="experience__card">
-                    <h2 class="experience__company">Other</h2>
-
-                    <div class="experience__data">
-                        <h3 class="experience__profession"></h3>
-                        <span class="experience__date"></span>
-                        <p class="experience__description">
-                            Short description of the work the dog did for the company.
+                            Desarrollo de un <strong>sitio web para panadería</strong> utilizando HTML, CSS y
+                            JavaScript.
+                            Incluye galería de productos y formulario de contacto funcional.
                         </p>
                     </div>
                 </article>
@@ -292,16 +367,16 @@
         <!-----------------------------------------CONTACT----------------------------------->
 
         <section class="contact-section" id="contact">
-            <h2 class="section__title">Contact me</h2>
+            <h2 class="section__title">Contactarme</h2>
             <div class="contact__container container grid">
                 <form action="" class="contact__form grid" id="contact-form">
                     <div class="contact__group grid">
-                        <input type="text" name="user_name" placeholder="Name" required class="contact__input">
+                        <input type="text" name="user_name" placeholder="Nombre" required class="contact__input">
                         <input type="email" name="user_email" placeholder="Email" required class="contact__input">
                     </div>
 
-                    <textarea name="user_message" placeholder="Message" class="contact__input contact__area"></textarea>
-                    <button type="submit" class="button contact__button">Send message</button>
+                    <textarea name="user_message" placeholder="Mensaje" class="contact__input contact__area"></textarea>
+                    <button type="submit" class="button contact__button">Enviar mensaje</button>
 
                     <p class="contact__message" id="contact-message"></p>
 
@@ -322,11 +397,11 @@
                     </li>
 
                     <li>
-                        <a href="#projects" class="footer__link">Projects</a>
+                        <a href="#projects" class="footer__link">Proyectos</a>
                     </li>
 
                     <li>
-                        <a href="#services" class="footer__link">Services</a>
+                        <a href="#services" class="footer__link">Servicios</a>
                     </li>
 
                 </ul>
@@ -354,7 +429,7 @@
         </span>
     </footer>
 
-    
+
     <!--------------------------------------SCROLL UP------------------------------------->
     <a href="#" class="scrollup" id="scroll-up">
         <i class="ri-arrow-up-line"></i>

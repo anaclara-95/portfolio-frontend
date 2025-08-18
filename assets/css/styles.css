@@ -18,7 +18,7 @@
 
 */
 
---hue: 300;
+--hue: 260;
 --first-color: hsl(var(--hue), 70%, 60%);
 --first-color-alt: hsl(var(--hue), 76%, 45%);
 --white-color: hsl(0, 0% ,98%);
@@ -26,10 +26,8 @@
 --text-color: hsl(var(--hue), 2%, 66%);
 --body-color: hsl(var(--hue), 100%, 1%);
 --container-color: hsl(var(--hue), 2%, 10%);
---conic-gradient: --conic-gradient(from 150deg at 50% 45%,
-hsl(var(--hue), 80%, 20%) 0deg,
-hsl(var(--hue), 80%, 48%) 140deg,
-hsl(var(--hue), 80%, 20%) 360deg);
+--conic-gradient: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+
 
 
 
@@ -194,6 +192,7 @@ img {
 }
 
 /*------------------------------------------------HOME------------------------------*/
+
 
 /*--------PROFILE----*/
 

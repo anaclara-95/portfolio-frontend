@@ -48,7 +48,7 @@
 --font-medium: 500;
 --font-semi-bold: 600;
 
-/*-------- z indez ---------------*/
+/*-------- z index ---------------*/
 
 --z-tooltip: 10;
 --z-fixed: 100;
@@ -475,15 +475,17 @@ font-size: var(--h2-font-size);
 
 
 .services__icon{
-    display: inline-block;
+    display: flex;
     position: relative;
     margin-bottom: 2rem;
+    justify-content: center;    
 }
 
 .services__icon i {
     font-size: 2.5rem;
     position: relative;
     z-index: var(--z-tooltip);
+    
 }
 
 .services__name {
@@ -575,6 +577,51 @@ font-size: var(--h2-font-size);
     left: 0;
     bottom: 4.5rem;
     font-size: var(--small-font-size);
+}
+
+
+/*-----------------------------------CALL TO ACTION------------------------------*/
+.cta-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--container-color);
+  color: var(--white-color);
+  border-radius: 2rem;
+  margin: 60px auto;
+  max-width: 90%;
+}
+.section__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 2rem;
+}
+.cta-description {
+  font-size: var(--font-medium);
+  margin-bottom: 2rem;
+  
+}
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.cta-button {
+  background: var(--first-color);
+  color: var(--white-color);
+  padding: 14px 30px;
+  font-weight: var(--font-semi-bold);
+  border-radius: 2rem;
+  transition: .4s;
+  width: 100%;
+}
+.cta-button:hover {
+  background: var(--first-color-alt);
+}
+.cta-button.whatsapp {
+  background: var(--first-color);
+}
+.cta-button.whatsapp:hover {
+  background: var(--first-color-alt);
 }
 
 /*---------------------------------FOOTER---------------------------*/
@@ -800,7 +847,7 @@ font-size: var(--h2-font-size);
     }
 
     .info {
-        grid-column:  1/2;
+        grid-column:  1 / 2;
         grid-row: 1 / 2;
     }
 
@@ -831,6 +878,11 @@ font-size: var(--h2-font-size);
         font-size: var(--h3-font-size);
     }
 
+    .projects__container {
+        grid-template-columns: repeat(2, 368px);
+        gap: 2rem;
+    }
+
     .projects__card {
         padding-bottom: 2rem;
     }
@@ -846,6 +898,10 @@ font-size: var(--h2-font-size);
 
     .services__icon i {
         font-size: 3.5rem;
+    }
+
+    .services__icon i:hover {
+        color: #A8C0FF;
     }
 
     .experience__container {

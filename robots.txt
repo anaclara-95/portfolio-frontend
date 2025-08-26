@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anaclara-95.github.io/portfolio-frontend/sitemap.xml

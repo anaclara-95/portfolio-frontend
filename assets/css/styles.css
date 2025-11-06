@@ -26,9 +26,7 @@
 --text-color: hsl(var(--hue), 2%, 66%);
 --body-color: hsl(var(--hue), 100%, 1%);
 --container-color: hsl(var(--hue), 2%, 10%);
---conic-gradient: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
-
-
+--conic-gradient: linear-gradient(to right, #614385, #516395);
 
 
 /*--------------------------------FONTS AND TYPOGRAPHY-------------------------------------*/
@@ -208,10 +206,22 @@ img {
 }
 
 .profile__img {
-    width: 250px;
+    width: 1300px;
     position: absolute;
     justify-self: center;
-    align-self: flex-end;
+    align-self: center;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    filter: drop-shadow(0px 15px 0.75rem rgba(0, 0, 0, 1));
+}
+/* Filter color*/
+.profile::after {
+  content: "";
+  position: absolute;
+  inset: 0; /* equivale a top:0; right:0; bottom:0; left:0 */
+  background-color: rgba(33, 58, 246, 0.427); /* color con opacidad */
+  mix-blend-mode: multiply; /* opcional: tipo de mezcla */
+  pointer-events: none; /* no bloquea clics */
 }
 
 .profile__data {
@@ -273,7 +283,7 @@ img {
 }
 
 .info__img {
-    width: 140px;
+    width: 250px;
     justify-self: center;
     align-self: flex-end;
 }
@@ -581,48 +591,73 @@ font-size: var(--h2-font-size);
 
 
 /*-----------------------------------CALL TO ACTION------------------------------*/
-.cta-section {
-  text-align: center;
-  padding: 60px 20px;
-  background: var(--container-color);
-  color: var(--white-color);
-  border-radius: 2rem;
-  margin: 60px auto;
-  max-width: 90%;
-}
-.section__title {
-  font-size: var(--h2-font-size);
-  margin-bottom: 2rem;
-}
-.cta-description {
-  font-size: var(--font-medium);
-  margin-bottom: 2rem;
-  
-}
-.cta-buttons {
+
+
+.cta__container {
+    
   display: flex;
   justify-content: center;
-  gap: 15px;
   flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  
 }
+
+.cta-description {
+    text-align: center;
+}
+
+.cta-button,
+.cta-button.whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  margin: 0;
+  font-weight: var(--font-semi-bold);
+  border-radius: 2rem;
+  transition: 0.4s;
+  width: auto;
+  min-width: 180px;
+}
+
+/* Botón principal (Mail) */
 .cta-button {
   background: var(--first-color);
   color: var(--white-color);
-  padding: 14px 30px;
-  font-weight: var(--font-semi-bold);
-  border-radius: 2rem;
-  transition: .4s;
-  width: 100%;
 }
+
 .cta-button:hover {
   background: var(--first-color-alt);
 }
+
+/* Botón de WhatsApp */
 .cta-button.whatsapp {
-  background: var(--first-color);
+  background: #25d366;
+  color: #fff;
 }
+
 .cta-button.whatsapp:hover {
-  background: var(--first-color-alt);
+  background: #1ebe5b;
 }
+
+
+.cta-button .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.6rem;
+  flex-shrink: 0;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+
 
 /*---------------------------------FOOTER---------------------------*/
 .footer {
@@ -745,6 +780,25 @@ font-size: var(--h2-font-size);
     }
 }
 
+/* Responsivo */
+@media (max-width: 480px) {
+  .cta__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .cta-button,
+  .cta-button.whatsapp {
+    width: 80%;
+    text-align: center;
+  }
+
+  .cta-description {
+    font-size: var(--small-font-size);
+  }
+}
+
 
 /*--FOR MEDIUM DEVICES--*/
 
@@ -767,7 +821,9 @@ font-size: var(--h2-font-size);
     }
 }
 
-@media screen and (min-width: 768px) {
+
+
+@media screen and (min-width: 769px) {
     .home__container {
         grid-template-columns: repeat(2, 350px);
         align-items: flex-start;
@@ -790,6 +846,8 @@ font-size: var(--h2-font-size);
         grid-template-columns: 320px 380px;
         align-items: center;
     }
+
+
 
     .footer__container,
     .footer__content {
@@ -834,10 +892,12 @@ font-size: var(--h2-font-size);
         grid-column: 2 / 3;
         grid-row: 1 / 3;
         padding: 2rem;
+       
     }
 
     .profile__img {
-        width: 450px;
+        max-width: 2000px;
+  
     }
 
     .profile__data {
@@ -979,6 +1039,7 @@ font-size: var(--h2-font-size);
         right: 4rem;
     }
 
+  
 
 }
 

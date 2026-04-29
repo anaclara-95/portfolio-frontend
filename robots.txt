@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+# Block 404 from being indexed
+Disallow: /404.html
+
 Sitemap: https://anaclara-95.github.io/portfolio-frontend/sitemap.xml

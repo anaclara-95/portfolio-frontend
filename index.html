@@ -1,517 +1,472 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" data-theme="light">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- TITLE -->
-    <title>Portfolio Web Developer | Anaclara Ferrando</title>
+  <!-- PRIMARY META (updated via JS i18n) -->
+  <title>Portfolio Web Developer | Anaclara Ferrando</title>
+  <meta name="description" content="Portfolio de Anaclara Ferrando, desarrolladora web especializada en HTML, CSS, JavaScript, Java y MySQL. Creación de landing pages, desarrollo front-end y back-end.">
+  <meta name="keywords" content="Anaclara Ferrando, desarrolladora web, web developer, HTML, CSS, JavaScript, Java, MySQL, landing pages, portfolio, front-end, back-end, Argentina">
+  <meta name="author" content="Anaclara Ferrando">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#C8532A">
 
-    <!-- META DESCRIPTION -->
-    <meta name="description"
-        content="Portfolio de Anaclara Ferrando, desarrolladora web especializada en HTML, CSS, JavaScript, Java y MySQL. Creación de landing pages, desarrollo front-end y back-end.">
+  <!-- CANONICAL -->
+  <link rel="canonical" href="https://anaclara-95.github.io/portfolio-frontend/">
 
-    <!-- META KEYWORDS -->
-    <meta name="keywords"
-        content="Anaclara Ferrando, desarrolladora web, web developer, HTML, CSS, JavaScript, Java, MySQL, landing pages, portfolio, front-end, back-end, Argentina">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/jpeg" href="./assets/img/logo-02.jpeg">
+  <link rel="apple-touch-icon" href="./assets/img/logo-02.jpeg">
 
-    <!-- AUTHOR -->
-    <meta name="author" content="Anaclara Ferrando">
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio Web Developer | Anaclara Ferrando">
+  <meta property="og:description" content="Conoce mis proyectos web, servicios y experiencia en desarrollo front-end y back-end.">
+  <meta property="og:image" content="https://anaclara-95.github.io/portfolio-frontend/assets/img/profileimage.jpeg">
+  <meta property="og:url" content="https://anaclara-95.github.io/portfolio-frontend/">
+  <meta property="og:site_name" content="Portfolio Anaclara Ferrando">
+  <meta property="og:locale" content="es_AR">
 
-    <!-- ROBOTS -->
-    <meta name="robots" content="index, follow">
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio Web Developer | Anaclara Ferrando">
+  <meta name="twitter:description" content="Desarrolladora web especializada en front-end y back-end. Ver proyectos y servicios.">
+  <meta name="twitter:image" content="https://anaclara-95.github.io/portfolio-frontend/assets/img/profileimage.jpeg">
 
-    <!-- CANONICAL URL -->
-    <link rel="canonical" href="https://anaclara-95.github.io/portfolio-frontend/">
+  <!-- PRECONNECT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!--------------------------------------------------FAVICON------------------------------------->
-    <link rel="shortcut icon" href="./assets/img/logo-02.jpeg">
+  <!-- REMIXICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
 
-    <!-- OPEN GRAPH (Facebook, LinkedIn) -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Portfolio Web Developer | Anaclara Ferrando">
-    <meta property="og:description"
-        content="Conoce mis proyectos web, servicios y experiencia en desarrollo front-end y back-end.">
-    <meta property="og:image" content="https://anaclara-95.github.io/portfolio-frontend/./assets/img/profileimage.jpeg">
-    <meta property="og:url" content="https://anaclara-95.github.io/portfolio-frontend/">
-    <meta property="og:site_name" content="Portfolio Anaclara Ferrando">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
 
-    <!-- TWITTER CARD -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Portfolio Web Developer | Anaclara Ferrando">
-    <meta name="twitter:description"
-        content="Desarrolladora web especializada en front-end y back-end. Ver proyectos y servicios.">
-    <meta name="twitter:image"
-        content="https://anaclara-95.github.io/portfolio-frontend/./assets/img/profileimage.jpeg">
+  <!-- SCHEMA.ORG: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Anaclara Ferrando",
+    "jobTitle": "Web Developer",
+    "description": "Desarrolladora web especializada en HTML, CSS, JavaScript, Java y MySQL.",
+    "url": "https://anaclara-95.github.io/portfolio-frontend/",
+    "image": "https://anaclara-95.github.io/portfolio-frontend/assets/img/profileimage.jpeg",
+    "email": "anaclaraferrando95@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "AR"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/anaclara-ferrando/",
+      "https://github.com/anaclara-95",
+      "https://www.fiverr.com/users/ana_ferrando/"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "FstailSolutions"
+    },
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "React", "Java", "MySQL", "Web Development", "SEO", "Tailwind CSS"]
+  }
+  </script>
 
-
-    <!------------------------------------------------REMIXICONS------------------------------------------->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
-
-    <!-------------------------------------------------CSS---------------------------------------------->
-
-    <link rel="stylesheet" href="./assets/css/styles.css">
-
-    <!-- SCHEMA.ORG: PERSON -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
+  <!-- SCHEMA.ORG: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Portfolio Anaclara Ferrando",
+    "url": "https://anaclara-95.github.io/portfolio-frontend/",
+    "description": "Portfolio de Anaclara Ferrando, desarrolladora web.",
+    "author": {
       "@type": "Person",
-      "name": "Anaclara Ferrando",
-      "jobTitle": "Web Developer",
-      "url": "https://anaclara-95.github.io/portfolio-frontend/",
-      "image": "https://anaclara-95.github.io/portfolio-frontend/./assets/img/profileimage.jpeg",
-      "sameAs": [
-        "https://www.linkedin.com/in/anaclara-ferrando/",
-        "https://github.com/anaclara-95/portfolio-frontend",
-        "https://www.fiverr.com/users/ana_ferrando/seller_dashboard/"
-      ],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "FstailSolutions"
-      },
-      "knowsAbout": ["HTML", "CSS", "JavaScript", "Java", "MySQL", "Web Development"]
+      "name": "Anaclara Ferrando"
     }
-    </script>
-
-
+  }
+  </script>
 </head>
 
 <body>
 
-    <!---------------------------------------------NAV--------------------------------------------------------->
-    <nav class="nav">
-        <ul class="nav__list">
-            <li>
-                <a href="#home" title="Home" class="nav__link active-link">
-                    <i class="ri-home-2-fill"></i></i>
-                </a>
-            </li>
+  <!-- ==================== NAVBAR ==================== -->
+  <header>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
 
-            <li>
-                <a href="#projects" title="Projects" class="nav__link">
-                    <i class="ri-folder-3-fill"></i></i>
-                </a>
-            </li>
+      <a href="#home" class="nav__logo" id="nav-logo" aria-label="Anaclara Ferrando - Home">
+        Anaclara
+      </a>
 
-            <li>
-                <a href="#services" title="Services" class="nav__link">
-                    <i class="ri-file-2-fill"></i></i>
-                </a>
-            </li>
-
-            <li>
-                <a href="#experience" title="Experience" class="nav__link">
-                    <i class="ri-honour-fill"></i>
-                </a>
-            </li>
-
-            <li>
-                <a href="#contact" title="Contact" class="nav__link">
-                    <i class="ri-send-plane-fill"></i>
-                </a>
-            </li>
+      <div class="nav__center">
+        <ul class="nav__list" id="nav-list" role="list">
+          <!-- Injected by JS -->
         </ul>
-    </nav>
-
-
-    <!-----------------------------------------------MAIN---------------------------------------->
-    <main class="main">
-
-        <!----------------------------------------------HOME----------------------------------------->
-        <section class="home-section" id="home">
-            <div class="home__container container grid">
-
-                <!-----PROFILE----->
-
-                <div class="profile">
-
-                    <img src="./assets/img/anaclara-1-f.png" alt="profile-img" class="profile__img ">
-
-                    <div class="profile__data">
-                        <h1 class="profile__name"> Anaclara <br> Ferrando</h1>
-
-                        <div class="profile__buttons">
-                            <a href="#projects" class="button">Proyectos</a>
-                            <a href="#services" class="button button__black">Servicios</a>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-----INFO-------->
-                <div class="info">
-                    <div class="info__data">
-
-                        <h1 class="info__name">Anaclara Ferrando</h1>
-                    </div>
-                    <div class="info__image">
-                        <img src="./assets/img/anaclara-2.png" width="400px" height="400px"
-                            alt="Anaclara Ferrando - Desarrolladora Web" class="info__img">
-                    </div>
-
-                    <p class="info__description">
-                        Desarrolladora web con conocimientos en <strong>HTML, CSS, JavaScript, Java y MySQL</strong>.
-                        Creo <b>landing pages</b> y sitios web responsive para emprendedores, optimizados para velocidad
-                        y posicionamiento SEO.
-                    </p>
-
-                    <a href="./assets/pdf/cv-anaclara-ferrando.pdf" download target="_blank"
-                        class="button button__black">Descargar CV</a>
-                </div>
-                <!------ABOUT----->
-
-                <section class="about" id="about">
-                    <h1 class="about__name">
-                        Anaclara Ferrando - <b>Desarrolladora Web Full Stack</b>
-                    </h1>
-
-                    <p class="about__description">
-                        Soy <strong>Anaclara Ferrando</strong>, desarrolladora web especializada en <b>HTML, CSS,
-                            JavaScript, Java y MySQL</b>.
-                        Creo <strong>landing pages optimizadas</strong>, sitios web corporativos y soluciones a medida
-                        para emprendedores y negocios.
-                        Mi enfoque combina <b>diseño atractivo</b> y <b>rendimiento</b>, garantizando que cada página
-                        cargue rápido, sea segura y esté lista para posicionar en buscadores.
-                    </p>
-
-                    <div class="about__social">
-                        <a href="https://www.linkedin.com/in/anaclara-ferrando/" target="_blank" class="about__link"
-                            referrerpolicy="no-referrer">
-                            <i class="ri-linkedin-box-fill"></i>
-                        </a>
-
-                        <a href="https://github.com/anaclara-95" target="_blank" class="about__link"
-                            referrerpolicy="no-referrer">
-                            <i class="ri-github-fill"></i>
-                        </a>
-
-                        <a href="https://www.fiverr.com/users/ana_ferrando/" target="_blank" class="about__link">
-                            <i class="ri-contacts-book-3-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="about__image">
-                        <img src="./assets/img/profileimage.png" alt="about__image" class="about__img">
-                    </div>
-
-                    <p class="about__note">
-                        Trabajo con clientes en Argentina y en todo el mundo a través de plataformas freelance como
-                        Fiverr.
-                        Podés contactarme por email, LinkedIn o Fiverr para proyectos de <b>desarrollo web</b>.
-                    </p>
-
-                    <a href="#contact" class="button">Contactame</a>
-                </section>
-
-                <!------SKILLS---->
-
-                <div class="skills">
-                    <h2 class="skills__title">Skills</h2>
-                    <div class="skills__items">
-                        <img src="./assets/img/html-1.svg" alt="skill1" class="skills__item">
-                        <img src="./assets/img/css-3.svg" alt="skill1" class="skills__item">
-                        <img src="./assets/img/javascript-1.svg" alt="skill1" class="skills__item">
-                        <img src="./assets/img/git-icon.svg" alt="skill1" class="skills__item">
-                        <img src="./assets/img/java-4.svg" alt="skill1" class="skills__item">
-                        <img src="./assets/img/mysql-3.svg" alt="skill1" class="skills__item">
-                    </div>
-
-                    <p class="skills__discription">
-                        Visite la sección de proyectos para ver el trabajo realizado con estas tecnologías.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-------------------------------------PROJECTS------------------------------>
-        <section class="projects-section" id="projects">
-            <h2 class="section__title">Proyectos Recientes de Desarrollo Web</h2>
-
-            <div class="projects__container container grid">
-
-                <article class="projects__card">
-                    <a href="#" target="_blank" class="projects__image">
-                        <img src="./assets/img/bakery-website.png"
-                            alt="Sitio web de panadería desarrollado en HTML, CSS y JavaScript" class="projects__img">
-                    </a>
-
-                    <div class="projects__data">
-                        <h3 class="projects__name">Bakery Website</h3>
-                        <p class="projects__description">
-                            Sitio web moderno y responsive para una panadería, desarrollado con <b>HTML, CSS y
-                                JavaScript</b>.
-                            Incluye galería de productos, sección de contacto y optimización SEO on-page.
-                        </p>
-
-                        <div class="projects__skills">
-                            <img src="./assets/img/html-1.svg" alt="projectskill" class="projects__skill">
-                            <img src="./assets/img/css-3.svg" alt="projectskill" class="projects__skill">
-                            <img src="./assets/img/javascript-1.svg" alt="projectskill" class="projects__skill">
-                        </div>
-
-                        <a href="https://anaclara-95.github.io/bakery-website/" target="_blank" class="projects__button">
-                            <i class="ri-links-fill"></i>
-                            <span>Visitar proyecto</span>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <a href="#" target="_blank" class="projects__image">
-                        <img src="./assets/img/cake-website.png" alt="imgprojects" class="projects__img">
-                    </a>
-
-                    <div class="projects__data">
-                        <h3 class="projects__name">Cake Website</h3>
-                        <p class="projects__description">
-                            Landing page profesional para pastelería con <b>HTML, CSS y JavaScript</b>.
-                            Optimizada para conversión con llamadas a la acción y diseño responsive.
-                        </p>
-
-                        <div class="projects__skills">
-                            <img src="./assets/img/html-1.svg" alt="projectskill" class="projects__skill">
-                            <img src="./assets/img/css-3.svg" alt="projectskill" class="projects__skill">
-                            <img src="./assets/img/javascript-1.svg" alt="projectskill" class="projects__skill">
-                        </div>
-
-                        <a href="https://anaclara-95.github.io/cake-website/" target="_blank" class="projects__button">
-                            <i class="ri-links-fill"></i>
-                            <span>Visitar proyecto</span>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <a href="https://anaclara-95.github.io/tattoo-starter/" target="_blank" class="projects__image">
-                        <img src="./assets/img/tattoo-starter.png"
-                            alt="Landing page para estudio de tatuajes desarrollada con React y Tailwind CSS"
-                            class="projects__img">
-                    </a>
-
-                    <div class="projects__data">
-                        <h3 class="projects__name">Tattoo Starter</h3>
-                        <p class="projects__description">
-                            Landing page moderna y responsive para un estudio de tatuajes, desarrollada con
-                            <b>React</b> y <b>Tailwind CSS</b>. Incluye animaciones, menú hamburguesa y galería.
-                        </p>
-
-                        <div class="projects__skills">
-                            <img src="./assets/img/react-1.svg" alt="projectskill" class="projects__skill">
-                            <img src="./assets/img/tailwind-css-2.svg" alt="projectskill" class="projects__skill">
-                            <img src="./assets/img/javascript-1.svg" alt="projectskill" class="projects__skill">
-                        </div>
-
-                        <a href="https://anaclara-95.github.io/tattoo-starter/" target="_blank"
-                            class="projects__button">
-                            <i class="ri-links-fill"></i>
-                            <span>Visitar proyecto</span>
-                        </a>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <!---------------------------SERVICES------------------------------>
-
-        <section class="services-section" id="services">
-            <h2 class="section__title">Servicios de Desarrollo Web y Programación</h2>
-            <div class="services__container container container grid">
-
-                <!-- Servicio 1 -->
-                <article class="services__card">
-                    <div class="services__icon">
-                        <i class="ri-code-s-slash-line"></i>
-                    </div>
-                    <h3 class="services__name">Diseño y Desarrollo de Landing Pages</h3>
-                    <p class="services__description">
-                        Creación de <strong>landing pages profesionales</strong> enfocadas en conversión, con
-                        <b>HTML, CSS y JavaScript</b>. <br> Diseño responsive, rápido y optimizado para SEO, ideal para
-                        emprendedores y negocios que buscan <br> presencia en línea efectiva.
-                    </p>
-                </article>
-
-
-                <!-- Servicio 2 -->
-                <article class="services__card">
-                    <div class="services__icon">
-                        <i class="ri-database-2-line"></i>
-                    </div>
-                    <h3 class="services__name">Desarrollo Backend con Java y MySQL</h3>
-                    <p class="services__description">
-                        Programación de <strong>aplicaciones backend</strong> y <b>gestión de bases de datos MySQL</b>.
-                        <br>
-                        Desarrollo seguro y escalable, integración con APIs y paneles de administración.
-                    </p>
-                </article>
-
-                <!-- Servicio 3 -->
-                <article class="services__card">
-                    <div class="services__icon">
-                        <i class="ri-community-fill"></i>
-                    </div>
-                    <h3 class="services__name">Páginas Web Institucionales</h3>
-                    <p class="services__description">
-                        Creación de <strong>sitios web completos</strong> con varias secciones: inicio, servicios,
-                        galería, contacto y más. <br> Diseño adaptable, carga rápida y optimizado para buscadores.
-                    </p>
-                </article>
-
-            </div>
-        </section>
-
-        <!-----------------------------------EXPERIENCE------------------------------->
-        <section class="experience-section" id="experience">
-            <h2 class="section__title">Experiencia</h2>
-            <div class="experience__container container grid">
-
-                <article class="experience__card">
-                    <h2 class="experience__company">Freelance</h2>
-
-                    <div class="experience__data">
-                        <h3 class="experience__profession">Desarrollo de Sitios Web</h3>
-                        <span class="experience__date">2024 - Actualidad</span>
-                        <p class="experience__description">
-                            Creación de <strong>landing pages</strong> y sitios web personalizados para
-                            emprendedores locales. Diseño responsive y optimización para buscadores.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="experience__card">
-                    <h2 class="experience__company">Proyecto Personal</h2>
-
-                    <div class="experience__data">
-                        <h3 class="experience__profession">Bakery Website</h3>
-                        <span class="experience__date">2024</span>
-                        <p class="experience__description">
-                            Desarrollo de un <strong>sitio web para panadería</strong> utilizando HTML, CSS y
-                            JavaScript.
-                            Incluye galería de productos y formulario de contacto funcional.
-                        </p>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-
-        <!--------------------------------------------CALL TO ACTION----------------------------------->
-
-        <section class="cta-section" id="cta">
-            <h2 class="section__title">¿Listo para tu página web?</h2>
-            <div class="cta__container container">
-                <p class="cta-description">Transformá tu idea en un sitio profesional y accesible. ¡Escribime y
-                    empecemos tu proyecto!</p>
-
-                <a href="mailto:anaclaraferrando95@gmail.com" class="cta-button">
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-                        <path
-                            d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-
-                    Contáctame por Mail</a>
-                <a href="https://wa.me/549XXXXXXXXXX" target="_blank" class="cta-button whatsapp">
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-                        <path
-                            d="M20.52 3.48C18.18 1.14 15.21 0 12 0C5.37 0 0 5.37 0 12C0 14.13 0.54 16.18 1.57 18.01L0 24L6.09 22.44C7.93 23.46 9.96 24 12 24C18.63 24 24 18.63 24 12C24 8.79 22.86 5.82 20.52 3.48ZM12 22C10.17 22 8.41 21.54 6.85 20.68L6.43 20.44L3.24 21.24L4.06 18.1L3.8 17.68C2.63 15.84 2 13.96 2 12C2 6.48 6.48 2 12 2C14.69 2 17.23 3.05 19.07 4.93C20.95 6.77 22 9.31 22 12C22 17.52 17.52 22 12 22ZM17.64 14.36C17.43 14.28 16.11 13.64 15.91 13.56C15.71 13.48 15.55 13.44 15.38 13.64C15.21 13.84 14.75 14.36 14.61 14.52C14.47 14.68 14.33 14.7 14.12 14.62C13.91 14.54 13.19 14.3 12.26 13.48C11.53 12.85 11.02 12.06 10.88 11.85C10.74 11.64 10.84 11.5 10.92 11.42C11 11.34 11.09 11.23 11.17 11.11C11.25 10.99 11.29 10.9 11.37 10.76C11.45 10.62 11.41 10.48 11.35 10.4C11.29 10.32 10.82 9.16 10.61 8.64C10.39 8.09 10.17 8.17 10.01 8.17C9.85 8.17 9.69 8.17 9.53 8.17C9.37 8.17 9.11 8.23 8.9 8.46C8.69 8.69 8 9.33 8 10.64C8 11.95 8.9 13.28 9.02 13.44C9.14 13.6 10.81 16.09 13.23 17.16C14.27 17.62 15.07 17.86 15.64 18.03C16.34 18.24 16.97 18.2 17.46 18.14C17.95 18.08 18.88 17.61 19.11 17.02C19.34 16.43 19.34 15.93 19.27 15.82C19.2 15.71 18.85 15.63 18.64 15.55C18.43 15.47 17.85 14.97 17.64 14.36Z"
-                            fill="currentColor" />
-                    </svg>
-
-                    Contáctame por
-                    WhatsApp</a>
-            </div>
-
-        </section>
-        <!-----------------------------------------CONTACT----------------------------------->
-
-        <section class="contact-section" id="contact">
-            <h2 class="section__title">Contactarme</h2>
-            <div class="contact__container container grid">
-                <form action="" class="contact__form grid" id="contact-form">
-                    <div class="contact__group grid">
-                        <input type="text" name="user_name" placeholder="Nombre" required class="contact__input">
-                        <input type="email" name="user_email" placeholder="Email" required class="contact__input">
-                    </div>
-
-                    <textarea name="user_message" placeholder="Mensaje" class="contact__input contact__area"></textarea>
-                    <button type="submit" class="button contact__button">Enviar mensaje</button>
-
-                    <p class="contact__message" id="contact-message"></p>
-
-                </form>
-            </div>
-        </section>
-    </main>
-
-
-    <!------------------------------------------FOOTER------------------------------------>
-    <footer class="footer">
-        <div class="footer__container container grid">
-            <div class="footer__content grid">
-                <a href="#" class="footer__logo">Anaclara</a>
-
-                <ul class="footer__links">
-                    <li>
-                        <a href="#home" class="footer__link">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="#projects" class="footer__link">Proyectos</a>
-                    </li>
-
-                    <li>
-                        <a href="#services" class="footer__link">Servicios</a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="footer__social">
-                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
-                    <i class="ri-instagram-line"></i>
-                </a>
-
-                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
-                    <i class="ri-facebook-line"></i>
-                </a>
-
-                <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
-                    <i class="ri-youtube-fill"></i>
-                </a>
-
-
-            </div>
+      </div>
+
+      <div class="nav__controls">
+        <!-- Language Toggle -->
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <button class="lang-btn" data-lang="es" aria-label="Español">ES</button>
+          <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
         </div>
 
-        <span class="footer__copy">
-            &#169; All rights reserved by Anaclara Ferrando
-        </span>
-    </footer>
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="ri-moon-line"></i>
+        </button>
+      </div>
 
+    </nav>
+  </header>
 
-    <!--------------------------------------SCROLL UP------------------------------------->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-line"></i>
-    </a>
+  <!-- ==================== MAIN ==================== -->
+  <main id="main-content">
 
-    <!--------------------------------------SCROLL REVEAL------------------------------------>
-    <script src="./assets/js/scrollreveal.min.js"></script>
+    <!-- ---- HOME ---- -->
+    <section class="home-section section-pad" id="home" aria-label="Home">
+      <div class="home__container container grid">
 
-    <!-------------------------------------EMAIL JS----------------------------->
+        <div class="home__content">
+          <p class="home__greeting" id="home-greeting">Hola, soy</p>
+          <h1 class="home__name" id="home-name">Anaclara Ferrando</h1>
+          <p class="home__role" id="home-role">Full Stack Web Developer</p>
+          <p class="home__tagline" id="home-tagline">Transformo ideas en experiencias digitales.</p>
 
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+          <div class="home__buttons">
+            <a href="#projects" class="button button--primary" id="home-btn-projects">Ver Proyectos</a>
+            <a href="#services" class="button button--outline" id="home-btn-services">Servicios</a>
+            <a href="./assets/pdf/cv-anaclara-ferrando.pdf" download class="button button--ghost" id="home-btn-cv">
+              <i class="ri-download-line"></i> CV
+            </a>
+          </div>
+        </div>
 
-    <!-------------------------------------MAIN JS------------------------------->
+        <div class="home__image-wrap">
+          <div class="home__image-blob">
+            <img
+              src="./assets/img/anaclara-1-f.png"
+              alt="Anaclara Ferrando - Web Developer"
+              width="420"
+              height="420"
+              fetchpriority="high"
+            >
+          </div>
+          <div class="home__badge" aria-hidden="true">
+            <span class="home__badge-icon"><i class="ri-code-s-slash-line"></i></span>
+            <div class="home__badge-text">
+              <span class="home__badge-num">+3</span>
+              <span class="home__badge-label">Proyectos</span>
+            </div>
+          </div>
+        </div>
 
-    <script src="./assets/js/main.js"></script>
+      </div>
+
+      <a href="#about" class="home__scroll" aria-label="Scroll down">
+        <span>Scroll</span>
+        <i class="ri-arrow-down-line"></i>
+      </a>
+    </section>
+
+    <!-- ---- ABOUT ---- -->
+    <section class="about-section section-pad" id="about" aria-label="About me">
+      <div class="about__container container grid">
+
+        <div class="about__image-wrap reveal-left">
+          <div class="about__image-frame">
+            <img
+              src="./assets/img/anaclara-2.png"
+              alt="Anaclara Ferrando - Desarrolladora Web Full Stack"
+              width="400"
+              height="500"
+              loading="lazy"
+            >
+          </div>
+        </div>
+
+        <div class="about__content reveal-right">
+          <div class="section__header" style="text-align:left; margin-bottom:1rem;">
+            <span class="section__tag" id="about-tag">Sobre mí</span>
+            <h2 class="section__title">Anaclara Ferrando</h2>
+            <p class="section__subtitle">Full Stack Web Developer</p>
+          </div>
+
+          <p class="about__description" id="about-description"></p>
+
+          <blockquote class="about__note" id="about-note"></blockquote>
+
+          <div class="about__socials">
+            <a href="https://www.linkedin.com/in/anaclara-ferrando/" target="_blank" rel="noopener noreferrer"
+               class="about__social-link" aria-label="LinkedIn">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://github.com/anaclara-95" target="_blank" rel="noopener noreferrer"
+               class="about__social-link" aria-label="GitHub">
+              <i class="ri-github-fill"></i>
+            </a>
+            <a href="https://www.fiverr.com/users/ana_ferrando/" target="_blank" rel="noopener noreferrer"
+               class="about__social-link" aria-label="Fiverr">
+              <i class="ri-contacts-book-3-line"></i>
+            </a>
+          </div>
+
+          <a href="#contact" class="button button--primary" id="about-btn-contact">Contactame</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ---- SKILLS ---- -->
+    <section class="skills-section section-pad" id="skills" aria-label="Skills">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Tech</span>
+          <h2 class="section__title" id="skills-title">Tecnologías</h2>
+        </div>
+
+        <div class="skills__grid" role="list">
+          <div class="skill__item reveal reveal-delay-1" role="listitem">
+            <img src="./assets/img/html-1.svg" alt="HTML5" width="44" height="44" loading="lazy">
+            <span class="skill__name">HTML5</span>
+          </div>
+          <div class="skill__item reveal reveal-delay-1" role="listitem">
+            <img src="./assets/img/css-3.svg" alt="CSS3" width="44" height="44" loading="lazy">
+            <span class="skill__name">CSS3</span>
+          </div>
+          <div class="skill__item reveal reveal-delay-2" role="listitem">
+            <img src="./assets/img/javascript-1.svg" alt="JavaScript" width="44" height="44" loading="lazy">
+            <span class="skill__name">JavaScript</span>
+          </div>
+          <div class="skill__item reveal reveal-delay-2" role="listitem">
+            <img src="./assets/img/react-1.svg" alt="React" width="44" height="44" loading="lazy">
+            <span class="skill__name">React</span>
+          </div>
+          <div class="skill__item reveal reveal-delay-3" role="listitem">
+            <img src="./assets/img/git-icon.svg" alt="Git" width="44" height="44" loading="lazy">
+            <span class="skill__name">Git</span>
+          </div>
+          <div class="skill__item reveal reveal-delay-3" role="listitem">
+            <img src="./assets/img/java-4.svg" alt="Java" width="44" height="44" loading="lazy">
+            <span class="skill__name">Java</span>
+          </div>
+          <div class="skill__item reveal reveal-delay-4" role="listitem">
+            <img src="./assets/img/mysql-3.svg" alt="MySQL" width="44" height="44" loading="lazy">
+            <span class="skill__name">MySQL</span>
+          </div>
+          <div class="skill__item reveal reveal-delay-4" role="listitem">
+            <img src="./assets/img/tailwind-css-2.svg" alt="Tailwind CSS" width="44" height="44" loading="lazy">
+            <span class="skill__name">Tailwind</span>
+          </div>
+        </div>
+
+        <p class="section__subtitle" id="skills-description" style="text-align:center; margin-top:2rem;"></p>
+      </div>
+    </section>
+
+    <!-- ---- PROJECTS ---- -->
+    <section class="projects-section section-pad" id="projects" aria-label="Projects">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag" id="projects-tag">Work</span>
+          <h2 class="section__title" id="projects-title">Proyectos Recientes</h2>
+          <p class="section__subtitle" id="projects-subtitle">Trabajo seleccionado de desarrollo web</p>
+        </div>
+
+        <div class="projects__grid" id="projects-grid" role="list">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- SERVICES ---- -->
+    <section class="services-section section-pad" id="services" aria-label="Services">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag" id="services-tag">Servicios</span>
+          <h2 class="section__title" id="services-title">Servicios</h2>
+          <p class="section__subtitle" id="services-subtitle">Soluciones web a medida para tu negocio</p>
+        </div>
+
+        <div class="services__grid" id="services-grid" role="list">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- EXPERIENCE ---- -->
+    <section class="experience-section section-pad" id="experience" aria-label="Experience">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag" id="experience-tag">Trayectoria</span>
+          <h2 class="section__title" id="experience-title">Experiencia</h2>
+          <p class="section__subtitle" id="experience-subtitle">Mi trayectoria profesional</p>
+        </div>
+
+        <div class="experience__timeline" id="experience-timeline">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- CTA ---- -->
+    <section class="cta-section" id="cta" aria-label="Call to action">
+      <div class="container">
+        <h2 class="cta__title reveal" id="cta-title">¿Listo para tu página web?</h2>
+        <p class="cta__description reveal" id="cta-description">
+          Transformá tu idea en un sitio profesional y accesible.
+        </p>
+        <div class="cta__buttons reveal">
+          <a href="mailto:anaclaraferrando95@gmail.com" class="cta__btn cta__btn--white" id="cta-btn-email">
+            <i class="ri-mail-line"></i>
+            <span>Email</span>
+          </a>
+          <a href="https://wa.me/549XXXXXXXXXX" target="_blank" rel="noopener noreferrer"
+             class="cta__btn cta__btn--outline" id="cta-btn-whatsapp">
+            <i class="ri-whatsapp-line"></i>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- CONTACT ---- -->
+    <section class="contact-section section-pad" id="contact" aria-label="Contact">
+      <div class="contact__container container grid">
+
+        <div class="contact__info reveal-left">
+          <h2 class="contact__info-title" id="contact-info-title">Información de contacto</h2>
+
+          <div class="contact__info-items">
+            <div class="contact__info-item">
+              <div class="contact__info-icon"><i class="ri-mail-line"></i></div>
+              <div class="contact__info-text">
+                <span class="contact__info-label">Email</span>
+                <span class="contact__info-value">anaclaraferrando95@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__info-item">
+              <div class="contact__info-icon"><i class="ri-map-pin-line"></i></div>
+              <div class="contact__info-text">
+                <span class="contact__info-label">Location</span>
+                <span class="contact__info-value">Argentina</span>
+              </div>
+            </div>
+
+            <div class="contact__info-item">
+              <div class="contact__info-icon"><i class="ri-time-line"></i></div>
+              <div class="contact__info-text">
+                <span class="contact__info-label">Status</span>
+                <span class="contact__info-value" id="contact-availability">Disponible para proyectos freelance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form reveal-right" id="contact-form" novalidate aria-label="Contact form">
+          <div class="section__header" style="text-align:left; margin-bottom:1rem;">
+            <span class="section__tag">Get in Touch</span>
+            <h2 class="section__title" id="contact-title">Contacto</h2>
+            <p class="section__subtitle" id="contact-subtitle">¿Tenés un proyecto? Hablemos.</p>
+          </div>
+
+          <div class="contact__form-group">
+            <div class="contact__input-wrap">
+              <i class="ri-user-line" aria-hidden="true"></i>
+              <input
+                type="text"
+                id="contact-name"
+                name="user_name"
+                class="contact__input"
+                placeholder="Tu nombre"
+                required
+                autocomplete="name"
+                aria-label="Name"
+              >
+            </div>
+            <div class="contact__input-wrap">
+              <i class="ri-mail-line" aria-hidden="true"></i>
+              <input
+                type="email"
+                id="contact-email"
+                name="user_email"
+                class="contact__input"
+                placeholder="Tu email"
+                required
+                autocomplete="email"
+                aria-label="Email"
+              >
+            </div>
+          </div>
+
+          <div class="contact__textarea-wrap">
+            <i class="ri-message-2-line" aria-hidden="true"></i>
+            <textarea
+              id="contact-message"
+              name="user_message"
+              class="contact__textarea"
+              placeholder="Tu mensaje"
+              required
+              aria-label="Message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="contact__submit" id="contact-submit">
+            <i class="ri-send-plane-line"></i>
+            <span>Enviar mensaje</span>
+          </button>
+
+          <p class="contact__message" id="contact-message-status" role="alert" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <a href="#home" class="footer__logo" id="footer-logo" aria-label="Back to top">Anaclara</a>
+
+        <ul class="footer__links" id="footer-nav" role="list">
+          <!-- Injected by JS -->
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+             class="footer__social-link" aria-label="Instagram">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/anaclara-ferrando/" target="_blank" rel="noopener noreferrer"
+             class="footer__social-link" aria-label="LinkedIn">
+            <i class="ri-linkedin-line"></i>
+          </a>
+          <a href="https://github.com/anaclara-95" target="_blank" rel="noopener noreferrer"
+             class="footer__social-link" aria-label="GitHub">
+            <i class="ri-github-line"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer__bottom" id="footer-copy">
+        © All rights reserved by Anaclara Ferrando
+      </p>
+    </div>
+  </footer>
+
+  <!-- ==================== SCROLL UP ==================== -->
+  <a href="#home" class="scrollup" id="scroll-up" aria-label="Back to top">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+  <script src="./assets/js/scrollreveal.min.js" defer></script>
 
 </body>
-
 </html>

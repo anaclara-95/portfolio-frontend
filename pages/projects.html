@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos | Anaclara Ferrando</title>
+  <meta name="description" content="Todos los proyectos de desarrollo web de Anaclara Ferrando: landing pages, sitios responsive, React, HTML, CSS, JavaScript.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://anaclara-95.github.io/portfolio-frontend/pages/projects.html">
+  <meta property="og:title" content="Proyectos | Anaclara Ferrando">
+  <meta property="og:description" content="Portafolio de proyectos web: landing pages, sitios institucionales, React apps y más.">
+  <meta property="og:image" content="https://anaclara-95.github.io/portfolio-frontend/assets/img/profileimage.jpeg">
+  <meta property="og:url" content="https://anaclara-95.github.io/portfolio-frontend/pages/projects.html">
+  <link rel="icon" type="image/jpeg" href="../assets/img/logo-02.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/pages.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Proyectos - Anaclara Ferrando",
+    "url": "https://anaclara-95.github.io/portfolio-frontend/pages/projects.html",
+    "author": { "@type": "Person", "name": "Anaclara Ferrando" }
+  }
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a href="../index.html" class="nav__logo" aria-label="Home">Anaclara</a>
+      <div class="nav__center">
+        <ul class="nav__list" id="nav-list" role="list"></ul>
+      </div>
+      <div class="nav__controls">
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <button class="lang-btn" data-lang="es">ES</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="ri-moon-line"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-label="Page header">
+      <div class="container">
+        <div class="page-hero__content reveal">
+          <a href="../index.html" class="page-hero__back">
+            <i class="ri-arrow-left-line"></i>
+            <span id="back-label">Volver</span>
+          </a>
+          <span class="section__tag" id="page-tag">Work</span>
+          <h1 class="page-hero__title" id="page-title">Todos los Proyectos</h1>
+          <p class="page-hero__subtitle" id="page-subtitle">Colección completa de mi trabajo en desarrollo web</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FILTER BAR -->
+    <section class="section-pad" aria-label="Projects list">
+      <div class="container">
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all" id="filter-all">Todos</button>
+          <button class="filter-btn" data-filter="HTML">HTML/CSS</button>
+          <button class="filter-btn" data-filter="React">React</button>
+          <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+        </div>
+
+        <div class="projects__grid" id="projects-grid" role="list">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <a href="../index.html" class="footer__logo">Anaclara</a>
+        <ul class="footer__links" id="footer-nav" role="list"></ul>
+        <div class="footer__socials">
+          <a href="https://github.com/anaclara-95" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="GitHub">
+            <i class="ri-github-line"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/anaclara-ferrando/" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="LinkedIn">
+            <i class="ri-linkedin-line"></i>
+          </a>
+        </div>
+      </div>
+      <p class="footer__bottom" id="footer-copy">© All rights reserved by Anaclara Ferrando</p>
+    </div>
+  </footer>
+
+  <a href="#" class="scrollup" id="scroll-up" aria-label="Back to top"><i class="ri-arrow-up-line"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/projects-page.js" defer></script>
+</body>
+</html>

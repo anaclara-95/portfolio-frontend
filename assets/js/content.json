@@ -1,0 +1,320 @@
+{
+  "es": {
+    "meta": {
+      "title": "Portfolio Web Developer | Anaclara Ferrando",
+      "description": "Portfolio de Anaclara Ferrando, desarrolladora web especializada en HTML, CSS, JavaScript, Java y MySQL. Creación de landing pages, desarrollo front-end y back-end.",
+      "keywords": "Anaclara Ferrando, desarrolladora web, web developer, HTML, CSS, JavaScript, Java, MySQL, landing pages, portfolio, front-end, back-end, Argentina"
+    },
+    "nav": {
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "services": "Servicios",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    },
+    "home": {
+      "greeting": "Hola, soy",
+      "name": "Anaclara Ferrando",
+      "role": "Desarrolladora Web Full Stack",
+      "tagline": "Transformo ideas en experiencias digitales.",
+      "btnProjects": "Ver Proyectos",
+      "btnServices": "Servicios",
+      "btnCV": "Descargar CV"
+    },
+    "about": {
+      "title": "Sobre mí",
+      "description": "Soy <strong>Anaclara Ferrando</strong>, desarrolladora web especializada en <strong>HTML, CSS, JavaScript, Java y MySQL</strong>. Creo <strong>landing pages optimizadas</strong>, sitios web corporativos y soluciones a medida para emprendedores y negocios. Mi enfoque combina <strong>diseño atractivo</strong> y <strong>rendimiento</strong>, garantizando que cada página cargue rápido, sea segura y esté lista para posicionar en buscadores.",
+      "note": "Trabajo con clientes en Argentina y en todo el mundo a través de plataformas freelance como Fiverr. Podés contactarme por email, LinkedIn o Fiverr para proyectos de desarrollo web.",
+      "btnContact": "Contactame"
+    },
+    "skills": {
+      "title": "Tecnologías",
+      "description": "Visitá la sección de proyectos para ver el trabajo realizado con estas tecnologías."
+    },
+    "projects": {
+      "title": "Proyectos Recientes",
+      "subtitle": "Trabajo seleccionado de desarrollo web",
+      "btnVisit": "Ver proyecto",
+      "btnCode": "Ver código",
+      "items": [
+        {
+          "name": "Bakery Website",
+          "description": "Sitio web moderno y responsive para una panadería, desarrollado con <strong>HTML, CSS y JavaScript</strong>. Incluye galería de productos, sección de contacto y optimización SEO on-page.",
+          "image": "./assets/img/bakery-website.png",
+          "alt": "Sitio web de panadería desarrollado en HTML, CSS y JavaScript",
+          "link": "https://anaclara-95.github.io/bakery-website/",
+          "github": "https://github.com/anaclara-95/bakery-website",
+          "skills": ["html-1.svg", "css-3.svg", "javascript-1.svg"],
+          "tags": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "name": "Cake Website",
+          "description": "Landing page profesional para pastelería con <strong>HTML, CSS y JavaScript</strong>. Optimizada para conversión con llamadas a la acción y diseño responsive.",
+          "image": "./assets/img/cake-website.png",
+          "alt": "Landing page de pastelería desarrollada en HTML, CSS y JavaScript",
+          "link": "https://anaclara-95.github.io/cake-website/",
+          "github": "https://github.com/anaclara-95/cake-website",
+          "skills": ["html-1.svg", "css-3.svg", "javascript-1.svg"],
+          "tags": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "name": "Tattoo Starter",
+          "description": "Landing page moderna y responsive para un estudio de tatuajes, desarrollada con <strong>React</strong> y <strong>Tailwind CSS</strong>. Incluye animaciones, menú hamburguesa y galería.",
+          "image": "./assets/img/tattoo-starter.png",
+          "alt": "Landing page para estudio de tatuajes desarrollada con React y Tailwind CSS",
+          "link": "https://anaclara-95.github.io/tattoo-starter/",
+          "github": "https://github.com/anaclara-95/tattoo-starter",
+          "skills": ["react-1.svg", "tailwind-css-2.svg", "javascript-1.svg"],
+          "tags": ["React", "Tailwind", "JavaScript"]
+        }
+      ]
+    },
+    "services": {
+      "title": "Servicios",
+      "subtitle": "Soluciones web a medida para tu negocio",
+      "items": [
+        {
+          "icon": "ri-code-s-slash-line",
+          "name": "Landing Pages",
+          "description": "Creación de <strong>landing pages profesionales</strong> enfocadas en conversión, con <strong>HTML, CSS y JavaScript</strong>. Diseño responsive, rápido y optimizado para SEO, ideal para emprendedores y negocios que buscan presencia online efectiva."
+        },
+        {
+          "icon": "ri-database-2-line",
+          "name": "Backend con Java y MySQL",
+          "description": "Programación de <strong>aplicaciones backend</strong> y <strong>gestión de bases de datos MySQL</strong>. Desarrollo seguro y escalable, integración con APIs y paneles de administración."
+        },
+        {
+          "icon": "ri-community-fill",
+          "name": "Sitios Web Institucionales",
+          "description": "Creación de <strong>sitios web completos</strong> con varias secciones: inicio, servicios, galería, contacto y más. Diseño adaptable, carga rápida y optimizado para buscadores."
+        },
+        {
+          "icon": "ri-smartphone-line",
+          "name": "Diseño Responsive",
+          "description": "Sitios web que se adaptan perfectamente a <strong>todos los dispositivos</strong>: móvil, tablet y escritorio. Experiencia de usuario fluida y coherente en cualquier pantalla."
+        },
+        {
+          "icon": "ri-seo-line",
+          "name": "Optimización SEO",
+          "description": "Implementación de <strong>buenas prácticas SEO</strong> para mejorar el posicionamiento en buscadores: metadatos, estructura semántica, velocidad de carga y accesibilidad."
+        },
+        {
+          "icon": "ri-customer-service-2-line",
+          "name": "Mantenimiento Web",
+          "description": "Servicio de <strong>mantenimiento y soporte</strong> para sitios existentes. Actualizaciones, corrección de errores, mejoras de rendimiento y seguridad continua."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experiencia",
+      "subtitle": "Mi trayectoria profesional",
+      "items": [
+        {
+          "company": "Freelance",
+          "role": "Desarrolladora Web",
+          "date": "2024 - Actualidad",
+          "description": "Creación de <strong>landing pages</strong> y sitios web personalizados para emprendedores locales. Diseño responsive y optimización para buscadores.",
+          "icon": "ri-computer-line"
+        },
+        {
+          "company": "FstailSolutions",
+          "role": "Desarrolladora Full Stack",
+          "date": "2024",
+          "description": "Desarrollo de aplicaciones web con <strong>Java y MySQL</strong>. Implementación de APIs REST y mantenimiento de bases de datos relacionales.",
+          "icon": "ri-building-2-line"
+        },
+        {
+          "company": "Proyecto Personal",
+          "role": "Bakery Website",
+          "date": "2024",
+          "description": "Desarrollo de un <strong>sitio web para panadería</strong> utilizando HTML, CSS y JavaScript. Incluye galería de productos y formulario de contacto funcional.",
+          "icon": "ri-code-box-line"
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para tu página web?",
+      "description": "Transformá tu idea en un sitio profesional y accesible. ¡Escribime y empecemos tu proyecto!",
+      "btnEmail": "Contactar por Email",
+      "btnWhatsapp": "Contactar por WhatsApp"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "¿Tenés un proyecto? Hablemos.",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "Tu email",
+      "messagePlaceholder": "Tu mensaje",
+      "btnSend": "Enviar mensaje",
+      "successMessage": "¡Mensaje enviado con éxito! Te responderé pronto.",
+      "errorMessage": "Hubo un error. Por favor intentá de nuevo.",
+      "infoTitle": "Información de contacto",
+      "email": "anaclaraferrando95@gmail.com",
+      "location": "Argentina",
+      "availability": "Disponible para proyectos freelance"
+    },
+    "footer": {
+      "links": ["Inicio", "Proyectos", "Servicios", "Contacto"],
+      "hrefs": ["#home", "#projects", "#services", "#contact"],
+      "copyright": "© Todos los derechos reservados por Anaclara Ferrando"
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "Web Developer Portfolio | Anaclara Ferrando",
+      "description": "Portfolio of Anaclara Ferrando, web developer specialized in HTML, CSS, JavaScript, Java and MySQL. Landing pages, front-end and back-end development.",
+      "keywords": "Anaclara Ferrando, web developer, HTML, CSS, JavaScript, Java, MySQL, landing pages, portfolio, front-end, back-end, Argentina"
+    },
+    "nav": {
+      "home": "Home",
+      "projects": "Projects",
+      "services": "Services",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "home": {
+      "greeting": "Hi, I'm",
+      "name": "Anaclara Ferrando",
+      "role": "Full Stack Web Developer",
+      "tagline": "I transform ideas into digital experiences.",
+      "btnProjects": "View Projects",
+      "btnServices": "Services",
+      "btnCV": "Download CV"
+    },
+    "about": {
+      "title": "About me",
+      "description": "I'm <strong>Anaclara Ferrando</strong>, a web developer specialized in <strong>HTML, CSS, JavaScript, Java and MySQL</strong>. I create <strong>optimized landing pages</strong>, corporate websites and custom solutions for entrepreneurs and businesses. My approach combines <strong>attractive design</strong> and <strong>performance</strong>, ensuring every page loads fast, is secure and ready to rank on search engines.",
+      "note": "I work with clients in Argentina and worldwide through freelance platforms like Fiverr. You can reach me via email, LinkedIn or Fiverr for web development projects.",
+      "btnContact": "Contact me"
+    },
+    "skills": {
+      "title": "Technologies",
+      "description": "Visit the projects section to see the work done with these technologies."
+    },
+    "projects": {
+      "title": "Recent Projects",
+      "subtitle": "Selected web development work",
+      "btnVisit": "View project",
+      "btnCode": "View code",
+      "items": [
+        {
+          "name": "Bakery Website",
+          "description": "Modern and responsive website for a bakery, developed with <strong>HTML, CSS and JavaScript</strong>. Includes product gallery, contact section and on-page SEO optimization.",
+          "image": "./assets/img/bakery-website.png",
+          "alt": "Bakery website developed in HTML, CSS and JavaScript",
+          "link": "https://anaclara-95.github.io/bakery-website/",
+          "github": "https://github.com/anaclara-95/bakery-website",
+          "skills": ["html-1.svg", "css-3.svg", "javascript-1.svg"],
+          "tags": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "name": "Cake Website",
+          "description": "Professional landing page for a pastry shop with <strong>HTML, CSS and JavaScript</strong>. Optimized for conversion with calls to action and responsive design.",
+          "image": "./assets/img/cake-website.png",
+          "alt": "Pastry shop landing page developed in HTML, CSS and JavaScript",
+          "link": "https://anaclara-95.github.io/cake-website/",
+          "github": "https://github.com/anaclara-95/cake-website",
+          "skills": ["html-1.svg", "css-3.svg", "javascript-1.svg"],
+          "tags": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "name": "Tattoo Starter",
+          "description": "Modern and responsive landing page for a tattoo studio, developed with <strong>React</strong> and <strong>Tailwind CSS</strong>. Features animations, hamburger menu and gallery.",
+          "image": "./assets/img/tattoo-starter.png",
+          "alt": "Tattoo studio landing page built with React and Tailwind CSS",
+          "link": "https://anaclara-95.github.io/tattoo-starter/",
+          "github": "https://github.com/anaclara-95/tattoo-starter",
+          "skills": ["react-1.svg", "tailwind-css-2.svg", "javascript-1.svg"],
+          "tags": ["React", "Tailwind", "JavaScript"]
+        }
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "subtitle": "Custom web solutions for your business",
+      "items": [
+        {
+          "icon": "ri-code-s-slash-line",
+          "name": "Landing Pages",
+          "description": "Creation of <strong>professional landing pages</strong> focused on conversion, with <strong>HTML, CSS and JavaScript</strong>. Responsive, fast and SEO-optimized design, ideal for entrepreneurs and businesses seeking effective online presence."
+        },
+        {
+          "icon": "ri-database-2-line",
+          "name": "Backend with Java & MySQL",
+          "description": "Programming of <strong>backend applications</strong> and <strong>MySQL database management</strong>. Secure and scalable development, API integration and administration panels."
+        },
+        {
+          "icon": "ri-community-fill",
+          "name": "Institutional Websites",
+          "description": "Creation of <strong>complete websites</strong> with multiple sections: home, services, gallery, contact and more. Adaptive design, fast loading and search engine optimized."
+        },
+        {
+          "icon": "ri-smartphone-line",
+          "name": "Responsive Design",
+          "description": "Websites that adapt perfectly to <strong>all devices</strong>: mobile, tablet and desktop. Smooth and consistent user experience on any screen."
+        },
+        {
+          "icon": "ri-seo-line",
+          "name": "SEO Optimization",
+          "description": "Implementation of <strong>SEO best practices</strong> to improve search engine rankings: metadata, semantic structure, loading speed and accessibility."
+        },
+        {
+          "icon": "ri-customer-service-2-line",
+          "name": "Web Maintenance",
+          "description": "<strong>Maintenance and support</strong> service for existing sites. Updates, bug fixes, performance improvements and ongoing security."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "subtitle": "My professional journey",
+      "items": [
+        {
+          "company": "Freelance",
+          "role": "Web Developer",
+          "date": "2024 - Present",
+          "description": "Creation of <strong>landing pages</strong> and custom websites for local entrepreneurs. Responsive design and search engine optimization.",
+          "icon": "ri-computer-line"
+        },
+        {
+          "company": "FstailSolutions",
+          "role": "Full Stack Developer",
+          "date": "2024",
+          "description": "Web application development with <strong>Java and MySQL</strong>. REST API implementation and relational database maintenance.",
+          "icon": "ri-building-2-line"
+        },
+        {
+          "company": "Personal Project",
+          "role": "Bakery Website",
+          "date": "2024",
+          "description": "Development of a <strong>bakery website</strong> using HTML, CSS and JavaScript. Includes product gallery and functional contact form.",
+          "icon": "ri-code-box-line"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready for your website?",
+      "description": "Turn your idea into a professional, accessible site. Write to me and let's start your project!",
+      "btnEmail": "Contact via Email",
+      "btnWhatsapp": "Contact via WhatsApp"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Have a project? Let's talk.",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Your message",
+      "btnSend": "Send message",
+      "successMessage": "Message sent successfully! I'll get back to you soon.",
+      "errorMessage": "An error occurred. Please try again.",
+      "infoTitle": "Contact information",
+      "email": "anaclaraferrando95@gmail.com",
+      "location": "Argentina",
+      "availability": "Available for freelance projects"
+    },
+    "footer": {
+      "links": ["Home", "Projects", "Services", "Contact"],
+      "hrefs": ["#home", "#projects", "#services", "#contact"],
+      "copyright": "© All rights reserved by Anaclara Ferrando"
+    }
+  }
+}

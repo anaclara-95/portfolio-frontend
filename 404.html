@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Página no encontrada | Anaclara Ferrando</title>
+  <meta name="description" content="La página que buscás no existe. Volvé al portfolio de Anaclara Ferrando.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" type="image/jpeg" href="./assets/img/logo-02.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/404.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav" role="navigation">
+      <a href="./index.html" class="nav__logo">Anaclara</a>
+      <div class="nav__controls">
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="es">ES</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="ri-moon-line"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="error-main">
+    <div class="error-container container">
+      <div class="error__code" aria-hidden="true">404</div>
+      <div class="error__content">
+        <h1 class="error__title" id="error-title">Página no encontrada</h1>
+        <p class="error__description" id="error-desc">
+          La página que buscás no existe o fue movida. ¡Volvé al inicio!
+        </p>
+        <div class="error__actions">
+          <a href="./index.html" class="button button--primary">
+            <i class="ri-home-2-line"></i>
+            <span id="error-btn-home">Volver al inicio</span>
+          </a>
+          <a href="./index.html#contact" class="button button--outline">
+            <i class="ri-send-plane-line"></i>
+            <span id="error-btn-contact">Contactarme</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./assets/js/404.js" defer></script>
+</body>
+</html>

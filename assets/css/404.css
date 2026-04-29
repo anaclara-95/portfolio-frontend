@@ -1,0 +1,59 @@
+/* =========================================
+   404 PAGE STYLES
+   ========================================= */
+
+.error-main {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+}
+
+.error-container {
+  display: flex;
+  align-items: center;
+  gap: clamp(2rem, 6vw, 6rem);
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding-block: var(--sp-3xl);
+}
+
+.error__code {
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 20vw, 14rem);
+  font-style: italic;
+  line-height: 1;
+  color: var(--color-accent);
+  opacity: 0.15;
+  user-select: none;
+  position: relative;
+}
+
+.error__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-md);
+  max-width: 480px;
+}
+
+.error__title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: var(--color-text);
+}
+
+.error__description {
+  font-size: var(--fs-lg);
+  color: var(--color-text-muted);
+  line-height: var(--lh-loose);
+}
+
+.error__actions {
+  display: flex;
+  gap: var(--sp-sm);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: var(--sp-sm);
+}
